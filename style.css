@@ -1,0 +1,256 @@
+
+.circular--portrait { 
+    position: relative; 
+    width: 230px; 
+    height: 230px; 
+    top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+    
+.circular--portrait img { 
+    width: 100%; 
+    height: 100%; 
+}
+
+.split-left {
+    height: 90%;
+    width: 30%;
+    block-size: 660px;
+    position: fixed;
+    z-index: 1;
+    top: 68px;
+    overflow-x: hidden;
+    padding-top: 10px;
+    left: 0;
+    background-color: white;
+} 
+
+.split-right {
+    height: 90%;
+    width: 70%;
+    block-size: 620px;
+    position: fixed;
+    z-index: 1;
+    top: 75px;
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding-left: 20px;
+    right: 0;
+    background-color: white;
+    border-left: 0.5px solid black;
+    }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    block-size: 55px;
+    background-color: white;
+    border-top: 0.5px solid black;
+}
+
+.name-block {
+    block-size: 150px;
+    text-align: center;
+    background-color: white;
+    margin-top: 70px;
+    font-family: 'Darker Grotesque';
+}
+
+.title-block {
+    block-size: 80px;
+    text-align: left;
+    background-color: white;
+    margin-top: 20px;
+    font-family: 'Darker Grotesque';
+    background-color: white;
+    font-size: 21px;
+}
+
+.info-block {
+    block-size: 450px;
+    width: 75%;
+    text-align: left;
+    background-color: white;
+    font-family: 'Darker Grotesque';
+    font-size: 23px;
+}
+
+.header-margin {
+    margin-top: -30px;
+}
+
+.p-margin {
+    margin-top: -20px;
+}
+
+.checkbox-style {
+    width: 150px;
+    float: left; 
+    height:100px; 
+    margin:10px;
+}
+
+.skills-headers {
+    font-size: 28px; 
+    font-family: 'Darker Grotesque';
+    margin-bottom: -15px; 
+    margin-top: 3px;
+}
+
+.skills-list {
+    margin-bottom: -15px;
+    font-weight: 900;
+}
+
+.progress-bar {
+    margin-top: 10px; 
+    margin-bottom: -20px;
+    height: 30px; 
+    width: 100%;
+}
+
+.bachelor {
+    font-size: 25px; 
+    margin-bottom: -15px; 
+    margin-top: 3px;
+    font-family: 'Darker Grotesque';
+}
+
+.bach-info {
+    font-size: 25px; 
+    margin-bottom: -15px; 
+    margin-top: 10px;
+    font-family: 'Darker Grotesque';
+}
+
+.diploma {
+    font-size: 25px; 
+    margin-bottom: -15px; 
+    margin-top: -10px;
+    font-family: 'Darker Grotesque';
+}
+
+.dip-info {
+    font-size: 25px;
+    margin-bottom: -15px; 
+    margin-top: -10px;
+    font-family: 'Darker Grotesque'
+}
+
+.edu-info {
+    font-size: 22px; 
+    margin-top: 10px;
+    font-family: 'Darker Grotesque';
+}
+
+.edu-location {
+    font-size: 22px; 
+    margin-top: 10px;
+    width: 30vw;
+    font-family: 'Darker Grotesque';
+}
+
+.credentials {
+    width: 100%; 
+    margin-top: 280px;
+    font-size: 20px; 
+    margin-bottom: -15px; 
+    color: grey;
+    font-family: 'Darker Grotesque'
+}
+
+.year {
+    float: left; 
+    width: 25vw;
+}
+
+.exp-edu {
+    float: left; 
+    width: 40vw;
+}
+
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding-left: calc(90vw - 900px);;
+    overflow: hidden;
+    background-color: white;
+}
+
+li.b {
+    float: left;
+}
+
+.c{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 4vw;
+    text-decoration: none;
+}
+
+.c:hover:not(.active) {
+    background-color: lightgray;
+}
+
+.active {
+    background-color: maroon;
+    color: white; 
+}
+
+.nav-border {
+    border-bottom: 0.5px solid black;
+    border-top: 2px solid black;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+.first-point {
+    font-size: 23px; 
+    margin-bottom: -19px; 
+    margin-top: 3px;
+}
+
+.points {
+    font-size: 23px; 
+    margin-bottom: -19px; 
+    margin-top: 15px;
+}
+
+.links {
+    color: blue;
+}
+
+@media screen and (max-width: 950px){
+    .split-left {
+        width: 100%; 
+        height: auto;
+        position: relative; 
+        border-bottom: 0.5px solid black;
+    }
+    .split-right {
+        width: 100%;
+        margin-left: 0; 
+        margin: 0 -50px;
+        flex: 1;
+        align-self: center;
+        position: static;
+        padding-left: 50px;
+    }
+}
+
+
+
